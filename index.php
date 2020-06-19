@@ -23,7 +23,7 @@ $ageRegex = '/^[1-9]([0-9]|[0-1]\d|20)?$/';
             <?php }
         } else {  
         }?>
-
+        
         <label for="firstname">Prenom : <input type="text" id="firstname" name="firstname" value="<?php if (!empty($_POST['firstname'])) { echo $_POST['firstname'];} ?>"></label>
         <?php
         if (!empty($_POST['firstname'])) {
